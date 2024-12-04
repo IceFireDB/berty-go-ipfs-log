@@ -241,3 +241,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
 )
+
+//Fixed goleveldb version
+replace github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
